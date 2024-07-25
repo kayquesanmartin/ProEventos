@@ -17,7 +17,6 @@ namespace ProEventos.Persistance.Migrations
                     DataEvento = table.Column<DateTime>(type: "datetime2", nullable: true),
                     Tema = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     QtdPessoas = table.Column<int>(type: "int", nullable: false),
-                    Lote = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ImagemURL = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Telefone = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true)

@@ -5,12 +5,12 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ProEventos.Persistance;
+using ProEventos.Persistance.Contexts;
 
 namespace ProEventos.Persistance.Migrations
 {
     [DbContext(typeof(ProEventosContext))]
-    [Migration("20240723211149_Initial")]
+    [Migration("20240725101705_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -38,9 +38,6 @@ namespace ProEventos.Persistance.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Local")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Lote")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("QtdPessoas")

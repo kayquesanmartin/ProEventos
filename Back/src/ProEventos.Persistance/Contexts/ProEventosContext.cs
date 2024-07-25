@@ -1,15 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ProEventos.Domain;
 
-namespace ProEventos.Persistance
+namespace ProEventos.Persistance.Contexts
 {
     public class ProEventosContext : DbContext
     {
-        public ProEventosContext(DbContextOptions<ProEventosContext> options) 
+        public ProEventosContext(DbContextOptions<ProEventosContext> options)
             : base(options) { }
         public DbSet<Evento> Eventos { get; set; }
         public DbSet<Lote> Lotes { get; set; }
@@ -17,9 +13,10 @@ namespace ProEventos.Persistance
         public DbSet<PalestranteEvento> PalestrantesEventos { get; set; }
         public DbSet<RedeSocial> RedesSociais { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder){
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
             modelBuilder.Entity<PalestranteEvento>()
-                .HasKey(PE => new {PE.EventoId, PE.PalestranteId});
+                .HasKey(PE => new { PE.EventoId, PE.PalestranteId });
         }
     }
 }

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ProEventos.Persistance;
+using ProEventos.Persistance.Contexts;
 
 namespace ProEventos.Persistance.Migrations
 {
@@ -36,9 +36,6 @@ namespace ProEventos.Persistance.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Local")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Lote")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("QtdPessoas")
