@@ -193,23 +193,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kayque\\.nuget\\packages\\": {},
+    "C:\\Users\\Kayque\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kayque\\Documents\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+      "projectUniqueName": "D:\\dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
       "projectName": "ProEventos.API",
-      "projectPath": "C:\\Users\\kayque\\Documents\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
-      "packagesPath": "C:\\Users\\kayque\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kayque\\Documents\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
+      "projectPath": "D:\\dev\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+      "packagesPath": "C:\\Users\\Kayque\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kayque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kayque\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -218,6 +218,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

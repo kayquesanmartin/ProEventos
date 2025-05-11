@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\kayque\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\kayque\\.nuget\\packages",
+      "C:\\Users\\Kayque\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Kayque\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
